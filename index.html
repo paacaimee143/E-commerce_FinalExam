@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+        <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+
+</head>
+<body>
+        <!"NAVIGATION >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><I class="fas fa-store"></i> A.PShop</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!HERO SECTION>
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Welcome to A.P.Shop</h1>
+                    <p class="lead">Your trusted online store. Great products, fair prices, fast delivery.</p>
+                    <a href="pages/products.html" class="btn btn-light">Shop Now</a>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="Images/Shopping(Logo).jpeg" class="logo-circle" width="200px" height="200px" alt="Shopping">
+            </div>
+        </div>
+    </section>
+
+    <!CATEGORIES >
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Shop by Category</h2>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center p-3">
+                        <img src= "Images/Electronics.jpg" class="card-img-top" alt="Electronics">
+                        <h5 class="mt-2">Electronics</h5>
+                        <a href="pages/products.html" class="btn btn-primary btn-sm">View</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center p-3">
+                        <img src="Images/Fashion.jpg" class="card-img-top" alt="Fashion">
+                        <h5 class="mt-2">Fashion</h5>
+                        <a href="pages/products.html" class="btn btn-primary btn-sm">View</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center p-3">
+                        <img src="Images/Home&Living.jpeg" class="card-img-top" alt="Home">
+                        <h5 class="mt-2">Home & Living</h5>
+                        <a href="pages/products.html" class="btn btn-primary btn-sm">View</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center p-3">
+                        <img src="Images/Sports.jpg" class="card-img-top" alt="Sports">
+                        <h5 class="mt-2">Sports</h5>
+                        <a href="pages/products.html" class="btn btn-primary btn-sm">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!FEATURED PRODUCTS >
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Products</h2>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="Images/Wireless Headphones.jpeg" class=”card-img-top” alt=”Headphones”>
+                        <div class="card-body">
+                            <h5>Wireless Headphones/Airpods(Apple)</h5>
+                            <p class="text-primary fw-bold">₱1,500</p>
+                            <button class="btn btn-primary w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="Images/Smart Watch.jpg" class=”card-img-top” alt=”Watch”>
+                        <div class="card-body">
+                            <h5>Apple Smart Watch</h5>
+                            <p class="text-primary fw-bold">₱1,850</p>
+                            <button class="btn btn-primary w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="Images/Sneakers.jpg" class="card-img-top" alt="Shoes">
+                        <div class="card-body">
+                            <h5>Sneakers Original</h5>
+                            <p class="text-primary fw-bold">₱899</p>
+                            <button class="btn btn-primary w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="Images/Lamp.jpg" class="card-img-top" alt="Lamp">
+                        <div class="card-body">
+                            <h5>LED Desk Lamp</h5>
+                            <p class="text-primary fw-bold">₱450</p>
+                            <button class="btn btn-primary w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!FOOTER >
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2026 A.P.Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js></script>
+
+</body>
+</html>

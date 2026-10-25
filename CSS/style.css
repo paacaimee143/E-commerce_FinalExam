@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.card{
+    transition: 0.3s ease;
+
+}
+
+.card:hover{
+    transform: translateY(5px);
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.page-header{
+    padding: 40px 0;
+}
+
+.btn{
+    border-radius: 4px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.logo-circle{
+    border-radius: 50%;
+    border: 3px solid rgb(13, 62, 168);
+    object-fit: cover;
+}
